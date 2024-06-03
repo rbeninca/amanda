@@ -1,0 +1,290 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+p{
+ font-size: smaller;
+ font-style: justify;
+}
+
+img{
+    height: 20vh;
+    margin-left: 2vh;
+    
+}
+#Principal{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+
+#AbaLateral{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 30vh;
+    height: 90vh;
+    top: 20vh;
+    border-right-color: black;
+    background-color: #cacaca;
+    filter: drop-shadow(5px 5px 5px #393939);
+            width:200px;
+            height:220px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    margin-top: 0.2vh;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+  }
+
+#imagemARSus{
+    display:block;
+    position: fixed;
+    background-color: #4CAF50;
+    height: 20vh;
+    width:  700vh;
+    margin-left: 0vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+#AbaCentral{
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 200vh;
+    margin-top: 20vh;
+    background-color: #eaeaea;
+    align-content: center;
+}
+
+#calcularC{
+    color: whitesmoke;
+    background-color: rgb(0, 178, 0);
+    width: 20vh;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 20%;
+    border-radius: 1vh;
+}
+
+#conta{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    margin-top: 20vh;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    width: 8vh;
+    margin: 1vh;
+}
+
+iframe{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+}
+
+#quadrados{
+    display: flex;
+    margin-left: 7vh;
+    margin-top: 3vh;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+   
+}
+.titulo{
+    display: flex;
+    width: 85vh;
+    height: 8vh;
+    font-size: large;
+    background-color: #ababab;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+#massa{
+    margin-left: 2vh;
+    margin-top: 3vh;
+    height: 70vh;
+    width: 85vh;
+    background-color: #e2e1e1;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+#volume{
+    margin-left: 2vh;
+    margin-top: 3vh;
+    height: 70vh;
+    width: 85vh;
+    background-color:  #e2e1e1;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+.formulas{
+    display: flex;
+    text-align: center;
+    height: 10vh;
+    margin-left: 30%;
+    width: 30vh;
+    color: rgb(255, 255, 255);
+    background-color: #795548;
+    border-radius: 2vh;
+}
+
+.w3-input{
+    margin-left: 10vh;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+#imput{
+    width: 40%;
+   
+}
+
+#resolucao{
+    position: fixed;
+    top: 22%;
+    right: 1%;
+    background-color: rgb(199, 199, 199);
+    width: 30%;
+    min-height: 75vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+#resultadoC, #resultadoM, #resultadoA, #qntCimento, #qntAgua, #qntAgregado {
+    margin-left: 5vh;
+    height: 6vh;
+    font-size: 3vh;
+    color: rgb(53, 123, 0);
+}
+
+#resultadoC{
+    margin-top: 5vh;
+}
+
+.inputForm1{
+    display: flex;
+    flex-direction: row;
+    width: 120vh;
+    margin-bottom: 2vh;
+}
+
+#traco1{
+    box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+
+#caixaNormas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 180vh;
+    min-height: 100vh;
+    background-color: rgb(204, 204, 204);
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+#fotosHome{
+    height: 50vh;
+    width: 90%;
+    margin-left: 8vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#caixaHome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 180vh;
+    height: 80vh;
+    background-color: rgb(204, 204, 204);
+    margin-left: 8vh;
+    margin-top: 2.5vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+.NormaMaior{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 90%;
+    margin-left: 6vh;
+    margin-bottom: 1vh;
+    justify-content: space-between;
+    background-color: #ababab;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
+
+.norma{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1vh;
+    margin-left:13vh;
+    height: 8vh;
+    width: 55vh;
+    background-color: #dcdcdc;
+    filter: drop-shadow(5px 5px 5px #9f9f9f);
+    margin-top: 2vh;
+    margin-right: 3vh;
+    align-self: cent;
+}
+
+  
+.pdf{
+    margin-left: 0%;
+    height:5vh ;
+    width: 5vh;
+    margin-top: 1.25vh;
+}
+
+.textoNorma{
+    margin-left:2vh;
+}
+.download{
+    height:3.5vh ;
+    width: 3.5vh;
+    margin-top: 2vh;
+    opacity: 70%;
+}
+
+#novaNorma{
+    position: fixed;
+    top: 22%;
+    right: 1%;
+    background-color: rgb(199, 199, 199);
+    width: 30%;
+    min-height: 75vh;
+    filter: drop-shadow(5px 5px 5px #6e6e6e);
+}
