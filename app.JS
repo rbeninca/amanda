@@ -177,7 +177,7 @@ function modificarHTMLdoc() {
     var AbaCentral = document.getElementById('AbaCentral');
     AbaCentral.innerHTML = `
       <h1 style="margin-left: 8vh"> Documentação - Português </h1>
-      <iframe  src="Documentação/DOCUMENTAÇÃO.pdf" width="800" height="600" frameborder="0"></iframe>
+      <iframe  src="documentacao/documentacao.pdf" width="800" height="600" frameborder="0"></iframe>
      
     `;
 }
